@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Mesas
 
 ## 1. Acceso al Módulo de Mesas

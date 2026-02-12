@@ -1,3 +1,8 @@
+---
+title: "Limpiar Local y Session Storage"
+sidebar_position: 1
+---
+
 # Cómo Limpiar Local Storage y Session Storage
 
 Esta guía te muestra cómo limpiar el almacenamiento local (Local Storage) y el almacenamiento de sesión (Session Storage) de Mozo.pe usando las herramientas de desarrollo del navegador.
@@ -11,12 +16,13 @@ Haz **click derecho** en cualquier parte de la página web y selecciona **"Inspe
 ## Paso 2: Ir a la Pestaña Application
 
 1. En las herramientas de desarrollo, selecciona la pestaña **"Application"** (Aplicación)
+
+![Limpiar Local Storage](img/local-storage-2.png)
+
 2. En el panel izquierdo, despliega la sección **"Storage"**
 3. Busca y selecciona **"Local storage"**
 4. Haz click derecho sobre el dominio (por ejemplo: `https://mozo.pe`)
 5. Selecciona **"Clear"** para limpiar todo el Local Storage
-
-![Limpiar Local Storage](img/local-storage-2.png)
 
 ![Local Storage desplegado](img/local-storage-3.png)
 
