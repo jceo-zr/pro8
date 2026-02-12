@@ -37,11 +37,14 @@ Dependiendo de la versión del sistema Mozo que estés utilizando, el proceso de
     <p>Requiere configuración de URL y credenciales de acceso. Ideal para pruebas y uso rápido.</p>
   </DocsCard>
 
-  <DocsCard
-    header="Mozo Compilado"
-    href="#mozo-compilado-versión-instalable"
-  >
+<DocsCard
+header="Mozo Compilado"
+href="#mozo-compilado-versión-instalable"
+
+>
+
     <p>Inicio de sesión directo sin URL, con opciones de usuario y PIN. Instalado en tu servidor.</p>
+
   </DocsCard>
 </DocsCards>
 
@@ -83,7 +86,7 @@ Guarda la URL de tu sistema en un lugar seguro. La necesitarás cada vez que ini
 
 1. **Accede a Mozo.pe**: Ve a [https://mozo.pe/app](https://mozo.pe/app)
 2. **Ingresa la URL**: Escribe la URL completa de tu sistema Pro 8
-3. **Completa tus credenciales**: 
+3. **Completa tus credenciales**:
    - Correo electrónico
    - Contraseña
 4. **Haz clic en "Ingresar"**
@@ -114,11 +117,14 @@ La versión compilada ofrece **dos formas diferentes** de iniciar sesión:
     <p>Acceso completo con correo electrónico y contraseña.</p>
   </DocsCard>
 
-  <DocsCard
-    header="2. Usuario Mozo con PIN"
-    href="#método-2-usuario-mozo-con-pin"
-  >
+<DocsCard
+header="2. Usuario Mozo con PIN"
+href="#método-2-usuario-mozo-con-pin"
+
+>
+
     <p>Selección de mozo desde una lista y confirmación con código PIN de 4 dígitos.</p>
+
   </DocsCard>
 </DocsCards>
 
@@ -185,11 +191,11 @@ El PIN debe ser configurado previamente por el administrador del sistema para ca
 
 ## 🔄 Comparación de Métodos de Acceso
 
-| Método | Versión Web | Versión Compilada | Tipo de Usuario | Ventajas |
-|--------|-------------|-------------------|-----------------|----------|
-| **URL + Correo + Contraseña** | ✅ Sí | ❌ No | Todos | Acceso desde cualquier lugar |
-| **Correo + Contraseña** | ❌ No | ✅ Sí | Admin/Caja | Control total del sistema |
-| **Selección Visual + PIN** | ❌ No | ✅ Sí | Mozo | Identificación visual y seguridad con PIN |
+| Método                        | Versión Web | Versión Compilada | Tipo de Usuario | Ventajas                                  |
+| ----------------------------- | ----------- | ----------------- | --------------- | ----------------------------------------- |
+| **URL + Correo + Contraseña** | ✅ Sí       | ❌ No             | Todos           | Acceso desde cualquier lugar              |
+| **Correo + Contraseña**       | ❌ No       | ✅ Sí             | Admin/Caja      | Control total del sistema                 |
+| **Selección Visual + PIN**    | ❌ No       | ✅ Sí             | Mozo            | Identificación visual y seguridad con PIN |
 
 ---
 
@@ -204,20 +210,6 @@ Una vez que hayas iniciado sesión exitosamente, puedes comenzar a utilizar las 
   >
     <p>Gestiona la asignación y estado de las mesas en tu restaurante.</p>
   </DocsCard>
-
-  <DocsCard
-    header="Módulo POS"
-    href="pos"
-  >
-    <p>Procesa pagos y genera comprobantes electrónicos.</p>
-  </DocsCard>
-
-  <DocsCard
-    header="Configuración"
-    href="mozo_config_previa"
-  >
-    <p>Configura parámetros iniciales antes de usar el sistema.</p>
-  </DocsCard>
 </DocsCards>
 
 ---
@@ -228,24 +220,28 @@ Una vez que hayas iniciado sesión exitosamente, puedes comenzar a utilizar las 
 <summary>¿Qué hago si olvidé mi contraseña?</summary>
 
 Contacta al administrador del sistema para que restablezca tu contraseña. Los mozos también pueden solicitar un nuevo PIN si lo olvidan.
+
 </details>
 
 <details>
 <summary>¿Puedo usar la misma cuenta en múltiples dispositivos?</summary>
 
 Sí, tanto en la versión web como compilada puedes iniciar sesión desde diferentes dispositivos. Sin embargo, ten en cuenta que algunas acciones pueden requerir cerrar sesión en otros dispositivos.
+
 </details>
 
 <details>
 <summary>¿Cuál es la diferencia entre un usuario Mozo y un usuario Administrador?</summary>
 
 Los usuarios **Mozo** solo tienen acceso al módulo de mesas y comandas, mientras que los usuarios **Administrador** y **Caja** tienen acceso completo al sistema, incluyendo configuraciones y reportes.
+
 </details>
 
 <details>
 <summary>¿La versión web guarda mi URL para futuros accesos?</summary>
 
 Depende de tu navegador y configuración. Algunos navegadores permiten autocompletar campos guardados. Para mayor comodidad, considera usar la versión compilada si accedes frecuentemente.
+
 </details>
 
 ---
@@ -280,7 +276,6 @@ Depende de tu navegador y configuración. Algunos navegadores permiten autocompl
 
 ---
 
-
 ## 🔒 Seguridad y Buenas Prácticas
 
 :::warning Recomendaciones de Seguridad
@@ -289,4 +284,4 @@ Depende de tu navegador y configuración. Algunos navegadores permiten autocompl
 2. **Cambia tu contraseña periódicamente** (cada 3-6 meses)
 3. **Cierra sesión** al finalizar tu turno, especialmente en dispositivos compartidos
 4. **Mantén tu PIN privado** y no lo escribas en lugares visibles
-:::
+   :::

@@ -203,12 +203,6 @@ href="iniciar-sesion-mozo"
 ## 📚 Recursos Adicionales
 
 <DocsCards>
-  <DocsCard 
-    header="Módulo POS"
-    href="pos"
-  >
-    <p>Aprende a usar el módulo de Punto de Venta integrado.</p>
-  </DocsCard>
 
 <DocsCard
 header="Módulo Mesas"

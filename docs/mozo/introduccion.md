@@ -29,16 +29,6 @@ Mozo.pe es una aplicación especializada para la toma y gestión de pedidos en r
   </DocsCard>
 
 <DocsCard
-header="Toma de Pedidos"
-href="pos"
-
->
-
-    <p>Guía completa para la toma de pedidos rápida y eficiente desde cualquier dispositivo.</p>
-
-  </DocsCard>
-
-<DocsCard
 header="Gestión de Cocina"
 href="mesas"
 
