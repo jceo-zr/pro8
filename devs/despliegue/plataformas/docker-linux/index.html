@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">Docker - Linux | PRO 8</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://manual.pro8.uio.la/img/pro8-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://manual.pro8.uio.la/img/pro8-social-card.jpg"><meta data-rh="true" property="og:url" content="https://manual.pro8.uio.la/devs/despliegue/plataformas/docker-linux"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Docker - Linux | PRO 8"><meta data-rh="true" name="description" content="Se explicará como poder descargar y poder ejecutar el facturador dentro de su máquina Ubuntu"><meta data-rh="true" property="og:description" content="Se explicará como poder descargar y poder ejecutar el facturador dentro de su máquina Ubuntu"><link data-rh="true" rel="icon" href="/img/pro8-favicon.ico"><link data-rh="true" rel="canonical" href="https://manual.pro8.uio.la/devs/despliegue/plataformas/docker-linux"><link data-rh="true" rel="alternate" href="https://manual.pro8.uio.la/devs/despliegue/plataformas/docker-linux" hreflang="en"><link data-rh="true" rel="alternate" href="https://manual.pro8.uio.la/devs/despliegue/plataformas/docker-linux" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Devs","item":"https://manual.pro8.uio.la/devs"},{"@type":"ListItem","position":2,"name":"Despliegue","item":"https://manual.pro8.uio.la/despliegue"},{"@type":"ListItem","position":3,"name":"Por Plataforma","item":"https://manual.pro8.uio.la/despliegue/plataformas"},{"@type":"ListItem","position":4,"name":"Docker - Linux","item":"https://manual.pro8.uio.la/devs/despliegue/plataformas/docker-linux"}]}</script><link rel="stylesheet" href="/assets/css/styles.554001d3.css">
-<script src="/assets/js/runtime~main.ef4998d0.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.3621bca0.js" defer="defer"></script>
 <script src="/assets/js/main.6b865ef8.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -29,15 +29,25 @@
 <ol start="2">
 <li class="">Ejecutar este comando en la terminal</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl https://git.buho.la/-/snippets/41/raw/main/install.sh -o install.sh &amp;&amp; chmod +x install.sh &amp;&amp; ./install.sh</span><br></span></code></pre></div></div>
-<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>⚠️ Importante</div><div class="admonitionContent_BuS1"><p>Si la instalación del facturador se detiene, por favor vuelva a correr el script de instalación.
-Esto solo puede ocurrir una vez.</p></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl https://git.buho.la/-/snippets/52/raw/main/install-pro8.sh -o install-pro8.sh &amp;&amp; chmod +x install-pro8.sh</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">Ejecutar el script</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./install-pro8.sh</span><br></span></code></pre></div></div>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>⚠️ Importante</div><div class="admonitionContent_BuS1"><p>Si sale <strong>-bash: ./install-pro8.sh: cannot execute: required file not found</strong> , ejecutar el siguiente comando:</p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sed -i &#x27;s/\r$//&#x27; install-pro8.sh</span><br></span></code></pre></div></div></div></div>
+<ol start="4">
+<li class="">Ejecutar nuevamente el script</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">./install-pro8.sh</span><br></span></code></pre></div></div>
 <ol start="3">
 <li class="">
 <p>Una vez ejecutado el script se le pedirá que ingrese algunos valores</p>
 <ul>
-<li class="">Se le preguntará sobre el dominio, aquí es donde se debe colocar el dominio que se ha colocado a la hora de configurar la DNS.</li>
-<li class="">Se le preguntará sobre su número de servicio<!-- -->
+<li class="">
+<p>Se le preguntará sobre el dominio, aquí es donde se debe colocar el dominio que se ha colocado a la hora de configurar la DNS.</p>
+</li>
+<li class="">
+<p>Se le preguntará sobre su número de servicio</p>
 <ol>
 <li class="">
 <p>Si es la primera instalación entonces presione enter para seguir con la instalación (el número de servicio por defecto se coloca como 1)</p>
@@ -49,9 +59,11 @@ Esto solo puede ocurrir una vez.</p></div></div>
 </li>
 </ol>
 </li>
-<li class="">Luego le preguntará que versión es la que necesita, en el script va encontrar entre el Pro7 [1] o el ProX [2]</li>
+<li class="">
+<p>Luego le preguntará que versión es la que necesita, en el script va encontrar entre el Pro8 [1] o el Pro X [2]</p>
+</li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/instalacion-facturador-linux-22d795ac17848bbbdb6ec9f1900e6f18.png" width="1760" height="164" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/instalacion-facturador-linux-00e543dff383c7d7a7eb2df3a3b56a39.png" width="650" height="146" class="img_ev3q"></p>
 <ul>
 <li class="">Si es la primera vez que se está instalando entonces empezará a actualizar el sistema y a descargar los programas necesarios, esto puede tardar unos minutos. Deberá clonar el repositorio donde deberá colocar su cuenta de usuario con contraseña (verificar que este bien la cuenta de usuario y contraseña porque puede saltar error y por consecuente fallar la instalación).</li>
 <li class="">Luego se le preguntará sobre si desea instalar el SSL gratuito, tener en cuenta que debe ser actualizado cada 90 días<!-- -->
