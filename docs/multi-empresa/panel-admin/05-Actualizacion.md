@@ -12,4 +12,4 @@ Están disponibles las siguientes funcionalidades:
 
 2. En la sección **Changelog** se observará los cambios y mejoras realizadas en cada actualización.
 
-![Alt text](img/1_actualizar.jpg)
+![Alt text](img/actualizacion-1.png)

@@ -5,10 +5,10 @@ Podrás ubicarlo siguiendo estos pasos:
 
 Iniciamos entrando a nuestro sistema **Administrador** donde visualizaremos el **módulo de Logs**.
 
-![Alt text](img/1_log.jpg)
+![Alt text](img/logs-1.png)
 
 ## Vista del Log
 
 Posteriormente, se mostrará un historial con fecha y hora, que nos permitirá detectar si se ha producido un error dentro de nuestra plataforma ,para notificar al soporte.
 
-![Alt text](img/2_log.png)
+![Alt text](img/logs-2.png)

@@ -7,7 +7,7 @@ Primero ingresamos a **Planes**.
 1. Si desea crear un nuevo plan para un cliente lo que debe de hacer es dirigirse al módulo de planes.
 2. Estando una vez dentro del módulo de planes, en la parte superior derecha hacer click en el botón **Nuevo**.
 
-![Alt text](img/crear_planes_1.png)
+![alt text](img/crear_planes_1.png)
 
 ## Crear un nuevo plan
 
@@ -17,7 +17,9 @@ Le aparecerá una ventana en donde podrá editar su nuevo plan,en las siguientes
 2. **Precio:** Asignar el precio que corresponda.
 3. **Límite de Usuarios:** Coloque cantidad; en caso que desee la opción ilimitada, solo tiene que seleccionarlo.
 4. **Límite de Documentos:** coloque cantidad; en caso que desee la opción ilimitada, solo tiene que seleccionarlo.
-5. Presione **GUARDAR**.
+5. **Limite de ventas mensual:** coloque cantidad; en caso que desee la opción ilimitada, solo tiene que seleccionarlo.
+
+Por último presione **GUARDAR**.
 
 ![Alt text](img/crear_planes_2.png)
 

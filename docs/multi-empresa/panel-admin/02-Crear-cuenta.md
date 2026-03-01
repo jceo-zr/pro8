@@ -11,16 +11,20 @@ Luego buscar la sección **Listado de Clientes** y dar click en el botón **nuev
 Posteriormente aparecerá un formulario a llenar con los siguientes campos:
 
 1. **RUC:** Al presionar el botón sunat se completará automáticamente el campo nombre de la empresa. También puede escribirlo manualmente.
-2. **Nombre del subdominio:** Este sera la URL (link) de acceso de su cliente a su sistema.
-3. **Correo de acceso:** Puede ser el correo de su cliente o un correo inventado. Este email solo sirve como dato de acceso, no se envía ningún tipo de información a este correo.
-4. **Contraseña:** Recuerde proporcionar estos datos a su cliente para que pueda acceder.
-   Seleccionamos el plan y opción limitar emisión de documentos.
+2. **Nombre de la empresa:** Nombre de la empresa, se rellena automáticamente al ingresar el RUC y seleccioanr el boton de **SUNAT**.
+3. **Nombre del subdominio:** Este sera la URL (link) de acceso de su cliente a su sistema.
+4. **Correo de acceso:** Puede ser el correo de su cliente o un correo inventado. Este email solo sirve como dato de acceso, no se envía ningún tipo de información a este correo.
+5. **Contraseña:** Recuerde proporcionar estos datos a su cliente para que pueda acceder.
+6. **Plan:** Seleccionamos el plan y opción limitar emisión de documentos.
+7. **Perfil:** Seleccionamos el perfil de usuario que tendrá su cliente.
 
-![Alt text](img/4.png)
+![Alt text](img/crear-cuenta-1.png)
 
 ## Módulos
 
-**En la sección módulos:** Tenemos diferentes opciones, para poder crear diferentes vistas dentro de nuestra cuenta.
+1. **En la sección módulos:** Tenemos diferentes opciones, para poder crear diferentes vistas dentro de nuestra cuenta.
+
+2. **Habilitar listas de precios:** Si desea que su cliente pueda usar listas de precios, habilite esta opción.
 
 :::info IMPORTANTE
 
@@ -28,7 +32,7 @@ Usted puede personalizar los módulos según las necesidades de su cliente o seg
 
 :::
 
-![Alt text](img/5.png)
+![Alt text](img/crear-cuenta-2.png)
 
 ## Entorno del sistema
 
@@ -45,14 +49,16 @@ Se encontrará los campos de:
 Es posible que su cliente desee probar el sistema primero, para este caso le recomendamos que le habilite un entorno de prueba con un RUC inventado ya que si crea una cuenta con el RUC real y después quiera pasar al entorno de producción el sistema tendrá historial y registros de productos, inventarios, reportes etc. (estos datos no pueden ser eliminados).
 :::
 
-![Alt text](img/6.png)
+![Alt text](img/crear-cuenta-3.png)
 
 ## Configuración de correo
 
 Esta configuración le ayudará a sus clientes a enviar los comprobantes electrónicos por correo. Para realizar la configuración puedes seguir estos pasos.
 
-![Alt text](img/7.png)
+![Alt text](img/crear-cuenta-4.png)
 
 Antes de finalizar usted puede permitir o no que la empresa pueda cambiar de demo a producción desde su cuenta.
+
+![Alt text](img/crear-cuenta-5.png)
 
 Luego de esto le da en el botón **Guardar** y su nueva cuenta estará lista para ser usada.

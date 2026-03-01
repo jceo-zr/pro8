@@ -1,5 +1,5 @@
 ---
-title: Módulo de Pagos
+title: Pagos
 description: "Guía completa para configurar y utilizar el módulo de Pagos con notificaciones automáticas por correo y WhatsApp"
 sidebar_position: 4
 ---
@@ -22,6 +22,7 @@ import DocsCards from '/src/components/global/DocsCards';
 El **Módulo de Pagos** es una herramienta diseñada para automatizar la gestión de órdenes de pago de tus clientes. Este sistema permite generar recordatorios automáticos antes de la fecha de vencimiento, enviar notificaciones por correo electrónico y WhatsApp, y llevar un control detallado del estado de cada orden.
 
 Con este módulo podrás:
+
 - Crear órdenes de pago manuales o automáticas
 - Configurar notificaciones personalizadas
 - Realizar seguimiento de pagos pendientes, vencidos, pagados y anulados
@@ -61,15 +62,12 @@ Para habilitar el funcionamiento del módulo, debes activar las tareas automáti
 
 3. Activa el interruptor para habilitar las tareas automáticas
 
-
 ### Configuración de Parámetros CRON
 
 Una vez activado, podrás configurar los siguientes parámetros:
 
 - **Días antes del vencimiento**: Define cuántos días antes de la fecha de vencimiento se generará la orden (por defecto: 3 días)
 - **Hora para generar la orden**: Establece la hora exacta en que se generarán las órdenes automáticamente (por defecto: 09:00:00)
-
-
 
 ---
 
@@ -102,6 +100,7 @@ Plan *@variable_plan*
 ```
 
 **Variables disponibles:**
+
 - `@variable_nombre`: Nombre del cliente
 - `@variable_plan`: Plan contratado
 - `@variable_precios`: Monto de la orden
@@ -182,6 +181,7 @@ Para enviar notificaciones por WhatsApp, necesitas tener una cuenta activa en la
 ![Configuración de QRAPI](img/pagos_9.png)
 
 **URL de Cliente:**
+
 ```
 https://cliente1.qrapi.com
 ```
@@ -235,7 +235,7 @@ Esta configuración de correo es exclusiva para el **módulo de Pagos**. No conf
 
 - **Correo del sistema**: Para notificaciones generales del panel
 - **Correo de contacto del cliente**: Para recibir órdenes de pago específicas
-:::
+  :::
 
 **Guardar Cambios:**
 
@@ -275,10 +275,13 @@ Al finalizar, tienes dos opciones:
     <p>Solo crea la orden sin enviar notificaciones. El cliente no recibirá avisos inmediatos.</p>
   </DocsCard>
 
-  <DocsCard
-    header="Crear y Notificar Orden"
-  >
+<DocsCard
+header="Crear y Notificar Orden"
+
+>
+
     <p>Crea la orden y envía automáticamente notificaciones por correo y WhatsApp al cliente.</p>
+
   </DocsCard>
 </DocsCards>
 
@@ -298,12 +301,12 @@ Una vez creadas, todas las órdenes aparecerán en la tabla principal del módul
 
 El sistema utiliza un código de colores para identificar el estado de cada orden:
 
-| Estado | Color | Descripción |
-|--------|-------|-------------|
-| **Pagado** | 🟢 Verde | La orden ha sido marcada como pagada |
-| **Pendiente** | 🟠 Naranja | La orden está activa y dentro del plazo |
-| **Vencido** | 🔴 Rojo | La fecha de vencimiento ha pasado sin pago |
-| **Anulado** | ⚫ Gris | La orden ha sido cancelada |
+| Estado        | Color      | Descripción                                |
+| ------------- | ---------- | ------------------------------------------ |
+| **Pagado**    | 🟢 Verde   | La orden ha sido marcada como pagada       |
+| **Pendiente** | 🟠 Naranja | La orden está activa y dentro del plazo    |
+| **Vencido**   | 🔴 Rojo    | La fecha de vencimiento ha pasado sin pago |
+| **Anulado**   | ⚫ Gris    | La orden ha sido cancelada                 |
 
 ![Resumen de estados en dashboard](img/pagos_14.png)
 
@@ -332,6 +335,7 @@ En la columna **"Acciones"** de cada orden, tienes las siguientes opciones:
 Envía manualmente una notificación al cliente por correo y WhatsApp, recordándole sobre la orden pendiente.
 
 **Cuándo usar:**
+
 - Si el cliente no recibió la notificación automática
 - Para enviar un recordatorio adicional antes del vencimiento
 - Si hubo cambios en la orden y necesitas informar al cliente
@@ -341,6 +345,7 @@ Envía manualmente una notificación al cliente por correo y WhatsApp, recordán
 Marca la orden como pagada cuando el cliente haya realizado el pago correspondiente.
 
 **Proceso:**
+
 1. Haz clic en **"Pagar"**
 2. El sistema actualizará el estado a "Pagado" (verde)
 3. Se registrará la fecha de pago automáticamente
@@ -350,6 +355,7 @@ Marca la orden como pagada cuando el cliente haya realizado el pago correspondie
 Cancela una orden de pago que ya no es válida o necesaria.
 
 **Cuándo usar:**
+
 - Si se generó una orden por error
 - Si el cliente ya no requiere el servicio
 - Si hubo cambios en los términos del contrato
@@ -441,18 +447,21 @@ Antes de comenzar a usar el módulo de Pagos, asegúrate de completar todos esto
 <summary>¿Las órdenes de pago bloquean automáticamente el sistema del cliente?</summary>
 
 No, las órdenes de pago son solo recordatorios. No bloquean automáticamente los sistemas de tus clientes. El bloqueo debe realizarse manualmente si es necesario.
+
 </details>
 
 <details>
 <summary>¿Puedo crear órdenes automáticas recurrentes?</summary>
 
 Sí, las tareas automáticas CRON pueden generar órdenes basadas en los planes de tus clientes. Configura los días de anticipación y la hora de generación en la sección de configuración.
+
 </details>
 
 <details>
 <summary>¿Qué hago si las notificaciones no llegan?</summary>
 
 Verifica:
+
 1. Que el correo y número de WhatsApp estén correctos
 2. Que la configuración SMTP esté completa
 3. Que el API Key de QRAPI sea válido
@@ -464,24 +473,28 @@ Verifica:
 <summary>¿Puedo editar una orden ya creada?</summary>
 
 Actualmente no es posible editar una orden existente. Si necesitas hacer cambios, debes anular la orden actual y crear una nueva con la información correcta.
+
 </details>
 
 <details>
 <summary>¿Cuántas notificaciones automáticas se envían?</summary>
 
 El sistema envía una notificación automática según los días configurados antes del vencimiento. Puedes enviar notificaciones manuales adicionales desde el menú de acciones.
+
 </details>
 
 <details>
 <summary>¿Se puede cambiar la plantilla de mensaje para cada cliente?</summary>
 
 La plantilla es global para todos los clientes. Sin embargo, las variables dinámicas personalizan el mensaje con la información específica de cada uno.
+
 </details>
 
 <details>
 <summary>¿Qué pasa si una orden se vence?</summary>
 
 El sistema automáticamente cambia el estado a "Vencido" (rojo) después de la fecha límite. Puedes seguir gestionándola normalmente, enviando notificaciones o marcándola como pagada cuando corresponda.
+
 </details>
 
 ---
@@ -510,12 +523,14 @@ El sistema automáticamente cambia el estado a "Vencido" (rojo) después de la f
 ### No aparece el mensaje de CRON
 
 **Solución:**
+
 - Refresca la página del navegador
 - Limpia la caché del navegador
 
 ### Las órdenes no se generan automáticamente
 
 **Verificar:**
+
 - Que el CRON esté activado
 - Que los clientes tengan planes activos
 - Que la configuración de días y hora sea correcta
@@ -532,7 +547,6 @@ El sistema automáticamente cambia el estado a "Vencido" (rojo) después de la f
 3. **Mantén activada** la verificación en dos pasos
 4. **Revisa periódicamente** los accesos a tus cuentas
 5. **Cambia las contraseñas** cada 3-6 meses
-:::
+   :::
 
 ---
-

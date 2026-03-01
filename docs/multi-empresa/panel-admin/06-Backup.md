@@ -4,15 +4,15 @@ Generar copias de seguridad de manera periódica es importante ya que contar con
 
 Iniciar entrando a nuestro sistema **Administrador**, donde visualizaremos el módulo de **Backup**.
 
- En la parte lateral se observa las opciones para conectar por **FTP**.
+En la parte lateral se observa las opciones para conectar por **FTP**.
 
-![Alt text](img/1.jpg)
+![Alt text](img/backup-1.png)
 
 ## Generar un backup
 
 Para generar un **Backup**, o copia de todos los archivos.
 
-![Alt text](img/2.jpg)
+![Alt text](img/backup-2.png)
 
 ## Tipos
 
@@ -33,7 +33,7 @@ Seleccione el botón **iniciar proceso**, después aparecerá el Backup generado
 
 Finalmente podrá descargar y descomprimir el archivo .zip para visualizar sus documentos.
 
-![Alt text](img/36.jpg)
+![Alt text](img/backup-3.png)
 
 :::danger IMPORTANTE
 
