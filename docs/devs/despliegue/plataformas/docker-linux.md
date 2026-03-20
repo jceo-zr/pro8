@@ -4,15 +4,7 @@ sidebar_position: 2
 
 # Docker - Linux
 
-Se explicará como poder descargar y poder ejecutar el facturador dentro de su máquina Ubuntu
-
-:::danger ¡IMPORTANTE - Migración de Servidor GitLab!
-**Hemos migrado nuestro servidor de GitLab.** Si aún no has cambiado la URL del sistema (del git para descargar los cambios, etc.), te sugerimos verificar primero.
-
-**Nueva URL:** `git.buho.la`
-
-Para más información sobre cómo actualizar la URL del repositorio, consulta nuestra **[guía de actualización y migración](https://manual.uio.la/Pro7/devs/instalacion/Actualizar-Migrar)**.
-:::
+Se explicará como poder descargar y poder ejecutar el facturador dentro de su servidor Ubuntu 24.04
 
 ## Requisitos previos
 
@@ -32,31 +24,29 @@ sudo su
 2. Ejecutar este comando en la terminal
 
 ```bash
-curl https://git.buho.la/-/snippets/52/raw/main/install-pro8.sh -o install-pro8.sh && chmod +x install-pro8.sh
+curl https://git.buho.la/-/snippets/60/raw/main/install.sh -o install.sh && chmod +x install.sh
 ```
 
 3.  Ejecutar el script
 
 ```bash
-./install-pro8.sh
+./install.sh
 ```
 
 :::danger ⚠️ Importante
-Si sale **-bash: ./install-pro8.sh: cannot execute: required file not found** , ejecutar el siguiente comando:
+Si sale **-bash: ./install.sh: cannot execute: required file not found** , ejecutar el siguiente comando:
 
 ```bash
-sed -i 's/\r$//' install-pro8.sh
+sed -i 's/\r$//' install.sh
 ```
-
-:::
 
 4. Ejecutar nuevamente el script
 
 ```bash
-./install-pro8.sh
+./install.sh
 ```
 
-3. Una vez ejecutado el script se le pedirá que ingrese algunos valores
+5. Una vez ejecutado el script se le pedirá que ingrese algunos valores
    - Se le preguntará sobre el dominio, aquí es donde se debe colocar el dominio que se ha colocado a la hora de configurar la DNS.
    - Se le preguntará sobre su número de servicio
      1. Si es la primera instalación entonces presione enter para seguir con la instalación (el número de servicio por defecto se coloca como 1)
@@ -75,7 +65,7 @@ sed -i 's/\r$//' install-pro8.sh
      1. Si responde “s” (Si): Se deberá contestar las siguientes preguntas con “y”, son dos en total, después se te mostrará un código que se deberá añadir en un record tipo TXT con el nombre de \_acme-challenge.example.com
      2. Si se responde “n” (No): Continuará con la configuración, pero posiblemente en la mayoría de los navegadores salga advertencia por falta de HTTPS, se recomienda agregar SSL. Cabe recalcar que puede configurarlo manualmente si lo desea.
 
-4. Finalizando la instalación, se le mostrará información sobre su facturador como **Ruta del proyecto, URL donde pueda acceder al facturador, el correo del administrador, contraseña, contraseña para acceder al MySQL, clave SSH**
+6. Finalizando la instalación, se le mostrará información sobre su facturador como **Ruta del proyecto, URL donde pueda acceder al facturador, el correo del administrador, contraseña, contraseña para acceder al MySQL, clave SSH**
    Cabe decir, que toda la información esta guardada dentro de un archivo de texto que facilmente podra acceder con el siguiente comando:
    ```bash
    cat [Su dominio].txt

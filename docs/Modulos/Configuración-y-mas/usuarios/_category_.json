@@ -1,0 +1,9 @@
+{
+  "label": "Usuarios",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "usuarios",
+    "description": "Encuentra ayuda sobre el módulo de Usuarios."
+  }
+}
