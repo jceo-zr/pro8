@@ -24,7 +24,7 @@ Pro 8 es una plataforma integral que ofrece múltiples módulos diseñados para 
 <DocsCards>
   <DocsCard 
     header="Dashboard"
-    href="/Modulos/dashboard"
+    href="/modulos/dashboard"
   >
     <p>Resumen general de ventas, compras, productos por agotarse y clientes con mayores compras.</p>
   </DocsCard>

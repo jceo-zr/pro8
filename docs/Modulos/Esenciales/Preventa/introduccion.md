@@ -23,37 +23,49 @@ El Módulo de Preventas es una potente herramienta diseñada para gestionar efic
 <DocsCards>
   <DocsCard 
     header="Oportunidades de Venta"
-    href="/Modulos/Esenciales/Preventa/Oportunidad-de-Venta"
+    href="/modulos/Esenciales/Preventa/Oportunidad-de-Venta"
   >
     <p>Gestiona prospectos comerciales y registra el primer contacto con potenciales clientes.</p>
   </DocsCard>
 
-  <DocsCard
-    header="Cotizaciones"
-    href="/Modulos/Esenciales/Preventa/Cotizaciones"
-  >
+<DocsCard
+header="Cotizaciones"
+href="/modulos/Esenciales/Preventa/Cotizaciones"
+
+>
+
     <p>Elabora propuestas formales con precios y condiciones para tus clientes en múltiples formatos.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Contratos"
-    href="/Modulos/Esenciales/Preventa/Contratos"
-  >
+<DocsCard
+header="Contratos"
+href="/modulos/Esenciales/Preventa/Contratos"
+
+>
+
     <p>Formaliza acuerdos comerciales con tus clientes antes de la emisión de comprobantes.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Pedidos"
-    href="/Modulos/Esenciales/Preventa/Pedidos"
-  >
+<DocsCard
+header="Pedidos"
+href="/modulos/Esenciales/Preventa/Pedidos"
+
+>
+
     <p>Registra solicitudes específicas de productos o servicios para su posterior procesamiento.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Soporte Técnico"
-    href="/Modulos/Esenciales/Preventa/Servicio-de-soporte-tecnico"
-  >
+<DocsCard
+header="Soporte Técnico"
+href="/modulos/Esenciales/Preventa/Servicio-de-soporte-tecnico"
+
+>
+
     <p>Gestiona ingresos de equipos para diagnóstico, reparación o mantenimiento.</p>
+
   </DocsCard>
 
 </DocsCards>
@@ -77,18 +89,23 @@ El Módulo de Preventas ofrece una solución completa para organizar la fase pre
 El Módulo de Preventas ofrece cinco tipos principales de documentos, cada uno diseñado para una fase específica del proceso comercial:
 
 ### 1. Oportunidades de Venta
+
 Ideal para registrar el primer contacto con clientes potenciales o nuevas oportunidades de negocio con clientes existentes. Permite adjuntar archivos que se mostrarán en la plantilla PDF.
 
 ### 2. Cotizaciones
+
 Propuestas formales con listado de productos o servicios, precios y condiciones comerciales. Disponibles en múltiples formatos (A4, A5 y ticket) y convertibles a otros documentos.
 
 ### 3. Contratos
+
 Formalización de acuerdos comerciales con clientes, estableciendo condiciones, plazos y compromisos antes de la emisión de comprobantes.
 
 ### 4. Pedidos
+
 Registro de solicitudes específicas de productos o servicios para su posterior procesamiento y facturación.
 
 ### 5. Soporte Técnico
+
 Documento especializado para el registro de equipos ingresados para diagnóstico, reparación, mantenimiento o garantía, con campos específicos para información técnica detallada.
 
 ## Flujo de Trabajo
@@ -123,5 +140,3 @@ Esto permite trabajar con total flexibilidad en la etapa previa a la venta, sin 
 ## Integración con Pro 8 y Pro X
 
 El Módulo de Preventas está completamente integrado con los Sistemas de Facturación Pro 8 y Pro X, permitiendo una transición fluida desde la fase comercial hasta la facturación electrónica oficial cuando se concreta la venta.
-
-

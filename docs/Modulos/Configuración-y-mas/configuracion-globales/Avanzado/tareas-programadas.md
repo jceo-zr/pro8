@@ -1,24 +1,164 @@
 ---
 sidebar_position: 1
+---
+
+# Tareas Programadas
+
+Las tareas programadas son procesos automatizados que se ejecutan en horarios específicos para mantener y optimizar tu sistema sin intervención manual. Permiten automatizar tareas repetitivas y críticas como respaldos, envíos a SUNAT, y mantenimiento de datos.
 
 ---
-# Tareas programadas
 
-En este artículo te enseñaremos a realizar la configuración necesaria para enviar las boletas mediante un resumen. Sigue estos pasos para realizarlo:
+## 📋 Tareas de Gestión de Datos
 
-Ingresa al módulo de **Configuración y más** , luego en **Avanzado** selecciona la subcategoría **Tareas programadas**.
+### Rellenar datos para Información de libro de cuentas
 
-![Alt text](img/Tareaprogramada1.jpg)
+Genera automáticamente la información contable del libro de cuentas según los comprobantes registrados en el período.
 
-Por consiguiente selecciona el botón **Nuevo**, donde aparecerá la ventana general para llenar la **Nueva tarea**.
+### Backup de la base de datos
 
-![Alt text](img/Tareaprogramada2.jpg)
+Crea copias de seguridad de tu base de datos de forma individual por empresa o completa para proteger toda tu información.
 
-Completa:
+### Obtener archivos generados en ZIP
 
-![Alt text](img/Tareaprogramada3.jpg)
+Comprime y descarga los archivos generados en el sistema (reportes, comprobantes, etc.) de forma individual o completa.
 
-* **Tarea: SummarySendCommand.**
-* **Hora de ejecución:** Selecciona la hora de ejecución (de sugerencia en la noche).
+### Restaurar base de datos demo desde archivo SQL
 
-Asimismo para enviarlo a **SUNAT**, seleccionamos una nueva **Tarea: SummaryQueryCommand** (de sugerencia una hora después a la tarea anterior).
+Restaura la base de datos de demostración a partir de un archivo SQL previamente guardado.
+
+### Actualización de filtros de los productos
+
+Recalcula y actualiza automáticamente los filtros de búsqueda y categorización de productos en el sistema.
+
+### Regularizar costo ponderado de los productos
+
+Recalcula el costo ponderado de inventario según las transacciones de compra y venta registradas.
+
+---
+
+## 🔐 Tareas de Seguridad y Administración
+
+### Cambiar contraseñas de los tenants
+
+Modifica las contraseñas de acceso de los usuarios del sistema de forma masiva o individual.
+
+### Validación de certificado digital
+
+Verifica que los certificados digitales (firma electrónica) sean válidos y estén vigentes.
+
+### Guardar data respecto a datos del servidor
+
+Registra y almacena información de configuración y datos del servidor para auditoría.
+
+---
+
+## 📊 Tareas de Reportes y Cambios
+
+### Generar changelog
+
+Crea un registro detallado de todos los cambios realizados en el sistema para auditoría e historial.
+
+### Consultar todos los documentos anulados
+
+Obtiene un listado de todos los comprobantes que han sido anulados en el período especificado.
+
+### Consultar el estado de los documentos
+
+Verifica el estado actual de todos los documentos (emitidos, pendientes, rechazados, etc.).
+
+---
+
+## 🛠️ Tareas de Operación
+
+### Recrear nota de ventas con recurrencia
+
+Genera automáticamente notas de venta periódicas basadas en patrones recurrentes configurados.
+
+### InsertStartBillingCycleForClient
+
+Inicia un nuevo ciclo de facturación para clientes con suscripciones o planes mensuales.
+
+### PaymentOrderCommand
+
+Procesa órdenes de pago pendientes y actualiza estados de transacciones.
+
+### Consultar documentos a otro URL en modo offline
+
+Obtiene documentos desde un servidor alterno cuando el modo offline está activado.
+
+### Enviar los documentos hacia el servidor offline
+
+Sincroniza los comprobantes hacia el servidor de respaldo para garantizar disponibilidad sin internet.
+
+---
+
+## 🗂️ Tareas de Guías
+
+### Consultar guías
+
+Obtiene el listado de guías de remisión registradas en el sistema.
+
+### Enviar guías a SUNAT
+
+Transmite automáticamente las guías de remisión electrónicas hacia la plataforma SUNAT para validación oficial.
+
+---
+
+## 📤 Tareas de Envío a SUNAT
+
+### Para enviar facturas a SUNAT
+
+Envía automáticamente las facturas electrónicas al sistema de SUNAT para su validación y registro oficial.
+
+> **Nota:** Configura los horarios preferentes para evitar picos de envío. SUNAT recomienda usar horarios fuera de punta.
+
+### Para enviar boletas a SUNAT
+
+Transmite automáticamente las boletas electrónicas hacia SUNAT garantizando su correcto registro en el sistema tributario.
+
+> **Nota:** Las boletas se envían en lotes. Asegúrate de que no haya errores de validación antes de programar esta tarea.
+
+### Consulta de resúmenes a SUNAT
+
+Verifica el estado de los resúmenes diarios de boletas y facturas que fueron enviados a SUNAT.
+
+### Envío de resúmenes a SUNAT
+
+Transmite automáticamente los resúmenes diarios consolidados de documentos hacia la plataforma de SUNAT.
+
+### Enviar a SUNAT con el servidor offline
+
+Sincroniza y envía documentos a SUNAT incluso cuando el servidor está en modo offline, usando el servidor de respaldo.
+
+---
+
+## 💾 Tareas de Respaldo y Recuperación
+
+### Backup de la demo
+
+Crea un respaldo completo del entorno de demostración para proteger la configuración de pruebas.
+
+### Restaurar los datos de la demo
+
+Recupera la base de datos de demostración a su estado anterior desde un backup guardado.
+
+### Restaurar backup temporal de demo
+
+Restaura un backup temporal de la demo creado en un período reciente.
+
+---
+
+## 🔍 Tareas de Búsqueda y Consulta
+
+### SearchMostUsedAffectationIgvTypes
+
+Identifica automáticamente los tipos de afectación IGV más utilizados en tus documentos para optimizar configuraciones.
+
+---
+
+## ⚙️ Recomendaciones de Configuración
+
+- **Horarios recomendados:** Configura tareas críticas (backups, SUNAT) en horarios fuera de pico (madrugada/fin de semana)
+- **Frecuencia:** Establece backups diarios para máxima protección de datos
+- **Monitoreo:** Revisa regularmente el estado de las tareas programadas en el registro de ejecución
+- **Respaldo offline:** Activa respaldos automáticos en servidor alterno para continuidad de negocio

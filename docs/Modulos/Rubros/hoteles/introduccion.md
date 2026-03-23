@@ -23,44 +23,59 @@ El Módulo Hotel de Pro 8 ofrece una solución completa para la gestión hoteler
 <DocsCards>
   <DocsCard 
     header="Configuración Inicial - Hoteles"
-    href="/Modulos/Rubros/hoteles/Configuracion-inicial-hoteles"
+    href="/modulos/Rubros/hoteles/Configuracion-inicial-hoteles"
   >
     <p>Aprende a configurar tu hotel o cadena de hoteles para comenzar a operar eficientemente.</p>
   </DocsCard>
 
-  <DocsCard
-    header="Recepción"
-    href="/Modulos/Rubros/hoteles/Recepcion"
-  >
+<DocsCard
+header="Recepción"
+href="/modulos/Rubros/hoteles/Recepcion"
+
+>
+
     <p>Gestiona el check-in y check-out de clientes con nuestra nueva interfaz visual mejorada.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Tarifas"
-    href="/Modulos/Rubros/hoteles/Tarifas"
-  >
+<DocsCard
+header="Tarifas"
+href="/modulos/Rubros/hoteles/Tarifas"
+
+>
+
     <p>Configura y personaliza las tarifas de tus habitaciones según temporadas y categorías.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Pisos"
-    href="/Modulos/Rubros/hoteles/Pisos"
-  >
+<DocsCard
+header="Pisos"
+href="/modulos/Rubros/hoteles/Pisos"
+
+>
+
     <p>Organiza la estructura de tu hotel definiendo los diferentes pisos disponibles.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Categorías"
-    href="/Modulos/Rubros/hoteles/Categorias"
-  >
+<DocsCard
+header="Categorías"
+href="/modulos/Rubros/hoteles/Categorias"
+
+>
+
     <p>Personaliza las categorías de habitaciones según las características de tu propiedad.</p>
+
   </DocsCard>
 
-  <DocsCard
-    header="Habitaciones"
-    href="/Modulos/Rubros/hoteles/Habitaciones"
-  >
+<DocsCard
+header="Habitaciones"
+href="/modulos/Rubros/hoteles/Habitaciones"
+
+>
+
     <p>Gestiona el inventario de habitaciones con todas sus características y disponibilidad.</p>
+
   </DocsCard>
 
 </DocsCards>
@@ -106,5 +121,3 @@ El Módulo Hotel está completamente integrado con los Sistemas de Facturación 
 - Sincronización con el sistema de inventario para productos y servicios
 - Registro centralizado de operaciones
 - Acceso a reportes detallados de ocupación y ventas
-
-

@@ -19,7 +19,7 @@ En la parte superior derecha selecciona el botón **Nuevo**.
 
 Aparecerá el formulario para llenar los datos del **Nuevo Establecimiento**.
 
-![alt text](img/establecimientos2.jpg)
+![alt text](img/sucursales_y_series_3.png)
 
 - **1. Descripción:** Ingresa el nombre del establecimiento.
 - **2. Código domicilio fiscal:** Ingresa el código del domicilio fiscal, se encuentra en tu ficha RUC.
@@ -39,13 +39,11 @@ Aparecerá el formulario para llenar los datos del **Nuevo Establecimiento**.
   - **Sujeto al IGV - Ley 31556:** Si perteneces al sector de restaurantes, hoteles y agencias de turismo, selecciona esta casilla para aplicar el IGV que te corresponde.
 - **Dirección secundaria:**
 
-![alt text](img/establecimientos4.jpg)
-
 Esta opción se utiliza principalmente para generar guías de remisión con una dirección diferente a la que está asignada como principal. Es útil para manejar múltiples ubicaciones de despacho, almacenes temporales o cuando necesitas enviar mercancías desde una dirección distinta a la fiscal.
 
 ## Listado de establecimientos
 
-![alt text](img/establecimientos3.jpg)
+![alt text](img/sucursales_y_series_4.png)
 
 Hay podemos observar que hay tres botones:
 
