@@ -2,11 +2,17 @@
 sidebar_position: 1
 ---
 
-# Tareas Programadas
+# ¿Qué son las Tareas Programadas?
 
 Las tareas programadas son procesos automatizados que se ejecutan en horarios específicos para mantener y optimizar tu sistema sin intervención manual. Permiten automatizar tareas repetitivas y críticas como respaldos, envíos a SUNAT, y mantenimiento de datos.
 
 ---
+
+::alert{type="info"}
+
+Si quieres saber como programar envio de Facturas, Boletas y Guías de Remisión, puedes hacer clic \*\*\*\*.
+
+::
 
 ## 📋 Tareas de Gestión de Datos
 
@@ -162,3 +168,11 @@ Identifica automáticamente los tipos de afectación IGV más utilizados en tus 
 - **Frecuencia:** Establece backups diarios para máxima protección de datos
 - **Monitoreo:** Revisa regularmente el estado de las tareas programadas en el registro de ejecución
 - **Respaldo offline:** Activa respaldos automáticos en servidor alterno para continuidad de negocio
+
+## Anexo: ¿Cómo programar el envío de Facturas, Boletas y Guías de Remisión?
+
+<!-- Enviar Facturas : **Para enviar facturas a SUNAT** seguir el siguiente manual **[Envio de Facturas automatico](../../../../guias-adicionales/TareasProgramadas/envio-facturas-automatico.md)** -->
+
+Enviar Boletas : **Para enviar boletas a SUNAT** seguir el siguiente manual **[Envio de Boletas automatico](../../../../guias-adicionales/TareasProgramadas/envio-boletas-automatico.md)**
+
+Enviar Guías de Remisión : **Para enviar guías de remisión a SUNAT** seguir el siguiente manual **[Envio de Guías de Remisión automatico](../../../../guias-adicionales/TareasProgramadas/envio-guias-remision-automatico.md)**
