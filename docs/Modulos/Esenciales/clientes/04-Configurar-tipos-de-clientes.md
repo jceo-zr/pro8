@@ -4,14 +4,14 @@ En este artículo podrás conocer cómo crear **Tipos de clientes.** Sigue estos
 
 Ingresa al módulo de **Clientes** y luego selecciona subcategoría **Tipos de clientes.** Para añadir un tipo de cliente selecciona en el botón **Nuevo.**
 
-![Alt text](img/Configurar-tipos-de-clientes_01.jpg)
+![Alt text](img/Configurar-tipos-de-clientes_01.png)
 
 Posteriormente aparecerá una ventana de **Nuevo tipo de cliente.**
 
-![Alt text](img/Configurar-tipos-de-clientes_02.jpg)
+![Alt text](img/Configurar-tipos-de-clientes_02.png)
 
-Ingresa el tipo de cliente que desee agregar, luego selecciona el botón **Guardar.**
+Ingresa el tipo de cliente que desee agregar y el tipo de precio para ese cliente, luego selecciona el botón **Guardar.**
 
-![Alt text](img/Configurar-tipos-de-clientes_03.jpg)
+![Alt text](img/Configurar-tipos-de-clientes_03.png)
 
 Finalmente le aparecerá la lista de **Tipos de clientes creadas.**
