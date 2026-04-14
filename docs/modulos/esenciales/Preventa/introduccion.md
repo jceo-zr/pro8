@@ -23,14 +23,14 @@ El Módulo de Preventas es una potente herramienta diseñada para gestionar efic
 <DocsCards>
   <DocsCard 
     header="Oportunidades de Venta"
-    href="/modulos/Esenciales/Preventa/Oportunidad-de-Venta"
+    href="/modulos/esenciales/Preventa/Oportunidad-de-Venta"
   >
     <p>Gestiona prospectos comerciales y registra el primer contacto con potenciales clientes.</p>
   </DocsCard>
 
 <DocsCard
 header="Cotizaciones"
-href="/modulos/Esenciales/Preventa/Cotizaciones"
+href="/modulos/esenciales/Preventa/Cotizaciones"
 
 >
 
@@ -40,7 +40,7 @@ href="/modulos/Esenciales/Preventa/Cotizaciones"
 
 <DocsCard
 header="Contratos"
-href="/modulos/Esenciales/Preventa/Contratos"
+href="/modulos/esenciales/Preventa/Contratos"
 
 >
 
@@ -50,7 +50,7 @@ href="/modulos/Esenciales/Preventa/Contratos"
 
 <DocsCard
 header="Pedidos"
-href="/modulos/Esenciales/Preventa/Pedidos"
+href="/modulos/esenciales/Preventa/Pedidos"
 
 >
 
@@ -60,7 +60,7 @@ href="/modulos/Esenciales/Preventa/Pedidos"
 
 <DocsCard
 header="Soporte Técnico"
-href="/modulos/Esenciales/Preventa/Servicio-de-soporte-tecnico"
+href="/modulos/esenciales/Preventa/Servicio-de-soporte-tecnico"
 
 >
 

@@ -183,6 +183,6 @@ Son errores graves que imposibilitan el procesamiento del archivo. En estos caso
 ## Navegación
 
 :::info Enlaces Relacionados
-- [❌ Ver Errores que generan Rechazo](errores-rechazo.md/)
+- [❌ Ver Errores que generan Rechazo](errores-rechazo.md)
 - [⚠️ Ver Observaciones](observaciones)
 :::
