@@ -49,8 +49,8 @@ href="/modulos/Rubros/hoteles/Tarifas"
   </DocsCard>
 
 <DocsCard
-header="Pisos"
-href="/modulos/Rubros/hoteles/Pisos"
+header="Habitaciones"
+href="/modulos/Rubros/hoteles/Habitaciones"
 
 >
 
