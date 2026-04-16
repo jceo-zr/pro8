@@ -23,7 +23,7 @@ El Módulo Hotel de Pro 8 ofrece una solución completa para la gestión hoteler
 <DocsCards>
   <DocsCard 
     header="Configuración Inicial - Hoteles"
-    href="/modulos/Rubros/hoteles/Configuracion-inicial-hoteles"
+    href="/modulos/Rubros/hoteles/configuracion-inicial-hoteles"
   >
     <p>Aprende a configurar tu hotel o cadena de hoteles para comenzar a operar eficientemente.</p>
   </DocsCard>
@@ -50,11 +50,11 @@ href="/modulos/Rubros/hoteles/Tarifas"
 
 <DocsCard
 header="Habitaciones"
-href="/modulos/Rubros/hoteles/Habitaciones"
+href="/modulos/Rubros/hoteles/Ubicaciones"
 
 >
 
-    <p>Organiza la estructura de tu hotel definiendo los diferentes pisos disponibles.</p>
+    <p>Organiza la estructura de tu hotel definiendo los diferentes ubicaciones disponibles.</p>
 
   </DocsCard>
 
