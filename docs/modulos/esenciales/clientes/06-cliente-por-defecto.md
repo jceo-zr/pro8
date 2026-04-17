@@ -9,25 +9,27 @@ En este apartado aprenderás a configurar un **cliente por defecto** para agiliz
 1. Desde el menú principal, dirígete a **Configuración y más**.  
 2. Selecciona la subcategoría **Sucursales y Series**.
 
-![Vista de Sucursales y Series](img/cliente-por-defecto.png)
+![Vista de Sucursales y Series](img/cliente_por_defecto_new_1.png)
 
 ---
 
-## 2. Crear o editar una sucursal
+## 2. Editar una sucursal
 
-1. En la parte superior derecha, haz clic en **Nuevo** para crear una sucursal o en **Editar** para modificar una existente.
+1. Haz clic en el botón **Editar** el icono de lapiz de la sucursal que deseas modificar.
 
-![Botón "Nuevo" en Sucursales y Series](img/cliente-por-defecto-2.png)
+![Botón "Editar" en Sucursales y Series](img/cliente_por_defecto_new_2.png)
 
-2. Se abrirá el modal de **Nueva Sucursal** o **Editar Sucursal**, donde deberás completar los campos obligatorios.
+2. Se abrirá el modal de **Editar Sucursal**.
 
-![Modal de Nueva Sucursal](img/cliente-por-defecto-3.png)
 
 ---
 
 ## 3. Configurar el "Cliente por defecto"
 
-1. En el mismo modal, localiza la opción **Cliente por defecto**.
+1. Localiza la opción **Cliente por defecto**.
+
+![Opción Cliente por defecto](img/cliente_por_defecto_new_3.png)
+
 2. Selecciona el cliente que deseas que se cargue automáticamente en tus comprobantes.
 
 > **Nota:** Asegúrate de que el cliente que quieres usar como defecto ya exista en el sistema.
@@ -37,13 +39,7 @@ En este apartado aprenderás a configurar un **cliente por defecto** para agiliz
 ## 4. Verificar en el módulo de Ventas
 
 1. Dirígete al módulo **Ventas**.
-2. Selecciona el submódulo **Nuevo Comprobante**.
-3. Verás que el **cliente por defecto** elegido en la configuración de sucursales se cargará de manera automática.
+2. Selecciona el submódulo **Boleta / Factura** o haz clic en el botón **Crear**.
+3. Verás que el **cliente por defecto** elegido en la configuración de sucursales se cargará de manera automática al crear un nuevo comprobante.
 
-![Cliente cargado por defecto en Nuevo Comprobante](img/cliente-por-defecto-4.png)
-
----
-
-## Conclusión
-
-Con estos pasos, cada vez que crees un **Nuevo Comprobante** en el módulo de Ventas, se asignará el cliente por defecto que configuraste. Esto te permitirá agilizar el proceso de facturación y mantener la coherencia de datos en tu sistema.
+![Cliente cargado por defecto en Nuevo Comprobante](img/cliente_por_defecto_new_4.png)

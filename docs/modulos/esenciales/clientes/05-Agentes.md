@@ -6,15 +6,17 @@ En esta área, te mostraremos cómo gestionar los agentes dentro del sistema de 
 
 Ingresa al módulo de **Clientes** y luego selecciona subcategoría **Agentes.**
 
+![Acceder a Agentes](img/agentes_new_1.png)
+
 En la parte superior derecha selecciona el botón **Nuevo.**
 
-![Acceder a Agentes](img/Agentes_01.jpg)  
+![Crear nuevo agente](img/agentes_new_2.png)  
 
 ## Datos del agente  
 
 Aparecerá un formulario para llenar los datos del **Nuevo Agente**.  
 
-![Formulario de Registro de Agente](img/Agentes_02.jpg)  
+![Formulario de Registro de Agente](img/agentes_new_3.png)  
 
 Completa los siguientes datos:  
 
@@ -29,17 +31,13 @@ Después de completar los datos, selecciona el botón **Guardar** para registrar
 
 En la lista de agentes, podrás ver todos los registros existentes. La tabla incluye lo siguiente:  
 
-![Lista de Agentes](img/Agentes_03.jpg)  
-
-| # | Código          | Nombre            | Correo                  | Teléfono    | Acciones                      |  
-|---|-----------------|-------------------|-------------------------|-------------|-------------------------------|  
-| 1 | wedsadasdasdsd  | asdas             | asdas@rddss.pe         | asdasd      | [Editar](#) | [Eliminar](#) |  
-| 2 | 2               | Agente_Prueba     | Agente_Prueba@gmail.com | 910901910   | [Editar](#) | [Eliminar](#) |  
+![Lista de Agentes](img/agentes_new_4.png)  
 
 ### Funciones disponibles:  
 
-- **Filtrar por nombre**: Utiliza la barra de búsqueda para filtrar los agentes por su nombre.  
-- **Editar**: Haz clic en el botón **Editar** para modificar la información del agente.  
-- **Eliminar**: Selecciona **Eliminar** para borrar el registro del agente.  
+![Funciones disponibles](img/agentes_new_5.png)
+
+1.  **Filtros**: Utiliza la barra de búsqueda para filtrar los agentes por nombre o código.
+2.  **Editar y Eliminar**: Haz clic en el icono de lapiz para modificar la información del agente o presiona el icono de papelera para eliminar el registro del agente.  
 
 Con estos pasos, podrás gestionar eficazmente la creación, visualización y modificación de agentes dentro del sistema. Esto facilita la organización y seguimiento de tus agentes de ventas o representantes.
