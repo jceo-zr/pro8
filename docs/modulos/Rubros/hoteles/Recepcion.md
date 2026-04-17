@@ -74,46 +74,91 @@ Al volver a recepción:
 
 Desde la habitación, podemos:
 
-Modificar la estadía
+## Modificar la estadía
 
-Agregar productos o servicios
+### Agregar productos o servicios
+
 Al agregar un producto:
+
+![alt text](img/recepcion_new_11.png)
+
 💰 Si se paga en el momento:
+
+![alt text](img/recepcion_new_12.png)
+
+El estado del pago estará **Cancelado**
+
 Se genera una nota de venta
+
+![alt text](img/recepcion_new_13.png)
+
+
 🧾 Si se carga a la habitación:
-No se genera comprobante aún
+
+![alt text](img/recepcion_new_14.png)
+
+No se genera comprobante aún.
+
 Se acumula para el check-out
-👉 Haremos un ejemplo con:
-Un producto pagado
-Otro cargado a la habitación
 
 6️⃣ Finalizar y revisar
 Guardamos y el sistema mostrará la nota de venta generada (si aplica).
+
+![alt text](img/recepcion_new_15.png)
+
 Volvemos a recepción.
 
 7️⃣ Realizar check-out
 Seleccionamos el botón Check-out
+
+![alt text](img/recepcion_new_16.png)
+
 Aquí veremos:
-Productos pagados
-Consumos pendientes
-Monto total pagado
-Monto pendiente
+
+1. Productos pagados
+2. Consumos pendientes
+
+![alt text](img/recepcion_new_17.png)
+
+3. Monto total pagado
+4. Monto pendiente
+
+![alt text](img/recepcion_new_18.png)
 
 8️⃣ Generar comprobante final
 Para los pendientes, podemos emitir:
 ✅ Nota de venta
 ✅ Boleta
 ✅ Factura
+
+![alt text](img/recepcion_new_19.png)
+
+::danger
+La emision de la **factura o boleta** va a depender del **docuemnto de identidad del cliente** siendo **DNI para boleta y RUC para factura.**
+
+:::
+
 Seleccionamos el tipo de comprobante y finalizamos.
+
+![alt text](img/recepcion_new_20.png)
 
 9️⃣ Estado final de la habitación
 Después del check-out:
-🧹 La habitación pasa a estado Limpieza
-Y luego volverá a Disponible
+🧹 La habitación pasa a estado **Limpieza**, representado con el color **Azul**
+
+![alt text](img/recepcion_new_21.png)
+
+Y luego volverá a **Disponible**, despues de hacer click en el boton **Finalizar Limpieza**
+
+![alt text](img/recepcion_new_22.png)
 
 🔟 Facturación consolidada (extra clave)
+
+
 Si el cliente solicita una factura por todo lo consumido:
-Puedes ir a Notas de venta
+Puedes ir a **Notas de venta**
 Y generar un comprobante desde múltiples notas de venta 🧾
+
+![alt text](img/recepcion_new_23.png)
 
 💡 Con este flujo puedes gestionar todo el ciclo del huésped: desde el ingreso hasta la facturación

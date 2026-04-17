@@ -1,27 +1,48 @@
 ---
-sidebar_position : 1
+sidebar_position: 1
+title : Configuración Inicial
 ---
-# Configuración Inicial
 
-Para empezar a utilizar el módulo de hoteles, es necesario configurar cada elemento en el siguiente orden:
+# 🏨 Configuración Inicial: Módulo de Hoteles
 
-* **Ubicaciones:** Se agregaran las ubicaciones de las habitaciones, por ejemplo, pisos, edificios, etc.
+Bienvenido al proceso de configuración del módulo de hoteles. Para asegurar un funcionamiento correcto del sistema de reservas y gestión, es fundamental seguir este orden lógico de implementación.
 
-Puede encontrar mas informacion sobre este submodulo en [Ubicaciones](Ubicaciones.md).
+---
 
+## 🚀 Flujo de Configuración
+Siga estos pasos de manera secuencial para preparar su inventario:
 
-* **Categorías:** Se agregaran las categorias de las habitaciones.
+### 1. Ubicaciones
+Defina las áreas físicas donde se encuentran sus habitaciones. Esto permite organizar el inventario de forma jerárquica.
+* **Ejemplos:** Piso 1, Torre A, Sector Jardín, Edificio Principal.
+* 📘 [Guía detallada de Ubicaciones](./Ubicaciones.md)
 
-Puede encontrar mas informacion sobre este submodulo en [Categorias](Categorias.md).
+### 2. Categorías
+Clasifique sus habitaciones según sus características o nivel de servicio.
+* **Ejemplos:** Suite Presidencial, Habitación Simple, Doble Twin, Matrimonial.
+* 📘 [Guía detallada de Categorías](./Categorias.md)
 
-* **Tarifas:** Las tarifas seran los diferentes precios que tendra disponible para las habitaciones, de la misma manera que en los items anteriores.
+### 3. Tarifas
+Establezca los distintos esquemas de precios que aplicará a sus habitaciones. Recuerde que una misma categoría puede tener múltiples precios (ej. Tarifa Corporativa vs. Tarifa de Temporada).
+* **Ejemplos:** Tarifa Estándar, Fin de Semana, Descuento Especial.
+* 📘 [Guía detallada de Tarifas](./Tarifas.md)
 
-Puede encontrar mas informacion sobre este submodulo en [Tarifas](Tarifas.md).
+### 4. Habitaciones
+Este es el paso final donde se materializa la configuración. Aquí vinculará las ubicaciones y categorías, y asignará los precios definidos en el paso de **Tarifas**.
+* 📘 [Guía detallada de Habitaciones](./Habitaciones.md)
 
-* **Habitaciones:** En este apartado, agregaremos las habitaciones, asi como los precios de las tarifas previamente creadas.
+---
 
-Puede encontrar mas informacion sobre este submodulo en [Habitaciones](Habitaciones.md).
+## 🛠️ Herramientas de Gestión
+Una vez creadas las habitaciones, dentro del listado principal tendrá acceso a herramientas de control rápido:
 
-Además dentro de este listado encontraremos las opciones de agregar el precio de las tarifas, asi como inhabilitar las habitaciones por mantenimiento, editar la informacion o borrar la habitacion.
+| Acción | Descripción |
+| :--- | :--- |
+| **Asignar Precios** | Configura los montos específicos para cada tarifa creada. |
+| **Mantenimiento** | Inhabilita habitaciones temporalmente para evitar reservas. |
+| **Edición** | Modifica detalles técnicos o nombres de habitación. |
+| **Eliminación** | Remueve la habitación del sistema (solo si no tiene historial activo). |
 
-Estos son los pasos iniciales para poder utilizar el módulo de **hoteles**.
+:::tip Importante
+Completar estos pasos en el orden indicado evitará errores de dependencia (por ejemplo, intentar crear una habitación sin haber definido primero su categoría o ubicación).
+:::
